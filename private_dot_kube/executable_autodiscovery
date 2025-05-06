@@ -4,7 +4,7 @@
 
 # if KUBECONFIG already set - exit
 if [ -n "$KUBECONFIG" ]; then
-  exit 0
+  return 0
 fi
 
 
