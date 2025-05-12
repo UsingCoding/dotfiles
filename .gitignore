@@ -1,0 +1,2 @@
+# ignore terraform related staff
+.terraform*

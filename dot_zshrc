@@ -88,5 +88,7 @@ source <(limactl completion zsh)
 alias j=just
 source <(just --completions zsh)
 
+alias cz=chezmoi
+
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/Users/vadim.makerov/.lmstudio/bin"
