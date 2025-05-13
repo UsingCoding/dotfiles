@@ -9,12 +9,12 @@ terraform {
 
 resource "installer_brew" "app" {
   for_each = toset(local.apps)
-  name      = each.value
+  name = each.value
 }
 
 resource "installer_brew" "cask" {
   for_each = toset(local.casks)
-  name      = each.value
+  name = each.value
   cask = true
 }
 
@@ -60,14 +60,15 @@ locals {
   ]
 
   casks = [
-    # "bitwarden",
-    # "gimp",
-    # "orbstack",
-    # "steam",
-    # "warp",
-    # "cursor",
-    # "macfuse",
-    # "raycast",
+    "bitwarden",
+    "gimp",
+    "orbstack",
+    "steam",
+    "warp",
+    "cursor",
+    "macfuse",
+    "raycast",
+    # vs-code writes launchctl configs, so brew prompts for sudo pass
     # "visual-studio-code"
   ]
 }
