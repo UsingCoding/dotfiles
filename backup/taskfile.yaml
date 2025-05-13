@@ -1,0 +1,40 @@
+version: '3'
+
+vars:
+  restic_repo_address: "rest:http://restic.microuser-dark5.local/vadim-mac"
+  restic_repo_pass:
+    sh: "gostore cat backup/vadim-mac pass"
+
+  restic_backup_target:
+    sh: "echo $HOME"
+
+tasks:
+  backup:
+    env:
+      RESTIC_REPOSITORY: "{{.restic_repo_address}}"
+      RESTIC_PASSWORD: "{{.restic_repo_pass}}"
+    dir: "{{.restic_backup_target}}"
+    cmd: |
+      restic backup --files-from {{.TASKFILE_DIR}}/includes.txt
+
+  backup-dry:
+    env:
+      RESTIC_REPOSITORY: "{{.restic_repo_address}}"
+      RESTIC_PASSWORD: "{{.restic_repo_pass}}"
+    dir: "{{.restic_backup_target}}"
+    cmd: |
+      restic backup --files-from {{.TASKFILE_DIR}}/includes.txt --dry-run
+
+  restore-latest:
+    env:
+      RESTIC_REPOSITORY: "{{.restic_repo_address}}"
+      RESTIC_PASSWORD: "{{.restic_repo_pass}}"
+    cmd: |
+      restic latest --path {{.restic_backup_target}}
+
+  manage:
+    env:
+      RESTIC_REPOSITORY: "{{.restic_repo_address}}"
+      RESTIC_PASSWORD: "{{.restic_repo_pass}}"
+    interactive: true
+    cmd: zsh
