@@ -58,7 +58,8 @@ locals {
     "kustomize",
     "teleport",
     "yazi",
-    "lazygi",
+    "lazygit",
+    "helmfile",
   ]
 
   casks = [
