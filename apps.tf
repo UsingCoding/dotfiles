@@ -61,6 +61,8 @@ locals {
     "lazygit",
     "helmfile",
     "sevenzip",
+    "yt-dlp",
+    "ffmpeg", # requires by yt-dlp
   ]
 
   casks = [
