@@ -93,6 +93,7 @@ source <(just --completions zsh)
 
 alias cz=chezmoi
 alias l=limactl
+alias tf=tofu
 
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/Users/vadim.makerov/.lmstudio/bin"

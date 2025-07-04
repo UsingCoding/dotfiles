@@ -60,6 +60,7 @@ locals {
     "yazi",
     "lazygit",
     "helmfile",
+    "sevenzip",
   ]
 
   casks = [
