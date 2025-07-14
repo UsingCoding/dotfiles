@@ -63,6 +63,7 @@ locals {
     "sevenzip",
     "yt-dlp",
     "ffmpeg", # requires by yt-dlp
+    "ripgrep",
   ]
 
   casks = [
