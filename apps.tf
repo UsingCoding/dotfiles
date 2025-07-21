@@ -64,6 +64,7 @@ locals {
     "yt-dlp",
     "ffmpeg", # requires by yt-dlp
     "ripgrep",
+    "posting",
   ]
 
   casks = [
