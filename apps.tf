@@ -66,6 +66,8 @@ locals {
     "ripgrep",
     "posting",
     "sshs",
+    "autorestic",
+    "direnv",
     # https://github.com/Julien-R44/fast-ssh
     # Not avaiable via brew and for darwin arm64
     # cargo install fast-ssh

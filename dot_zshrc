@@ -95,6 +95,10 @@ alias cz=chezmoi
 alias l=limactl
 alias tf=tofu
 
+### direnv
+eval "$(direnv hook zsh)"
+###
+
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/Users/vadim.makerov/.lmstudio/bin"
 
