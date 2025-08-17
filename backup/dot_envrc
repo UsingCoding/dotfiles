@@ -1,0 +1,2 @@
+# pass from gostore
+export AUTORESTIC_MICROUSER_RESTIC_PASSWORD="$(gostore cat backup/vadim-mac pass)"

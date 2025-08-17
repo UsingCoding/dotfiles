@@ -1,0 +1,45 @@
+version: 2
+
+locations:
+  main:
+    from:
+      # shell
+      - ~/.profile
+      - ~/.zsh_history
+      - ~/.zshrc
+      - ~/.oh-my-zsh
+
+      # Chezmoi
+      - ~/.local/share/chezmoi
+
+      # Kube
+      - ~/.kube/autodiscovery
+
+      # Window manager folder
+      - ~/Desktop
+      - ~/Documents
+      - ~/Pictures
+
+      # Git
+      - ~/.gitconfig
+      - ~/.go-hooks
+
+      # gostore
+      - ~/.gostore
+
+      # Simple scripts folder
+      - ~/scripts
+    to:
+      - microuser
+    options:
+      forget:
+        keep-last: 5
+        keep-monthly: 6
+
+backends:
+  microuser:
+    type: rest
+    path: "http://restic.microuser-dark5.local/vadim-mac"
+    # https://autorestic.vercel.app/backend#avoid-generating-keys
+    # Avoid accidential key generation
+    requireKey: true
