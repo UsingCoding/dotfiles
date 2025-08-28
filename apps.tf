@@ -83,6 +83,7 @@ locals {
     "macfuse",
     "raycast",
     "aldente",
+    "zed",
     # vs-code writes launchctl configs, so brew prompts for sudo pass
     # "visual-studio-code"
   ]
