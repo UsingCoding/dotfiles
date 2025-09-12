@@ -70,6 +70,8 @@ locals {
     "direnv",
     "gdu",
     "bottom",
+    "tree-sitter",
+    "neovim",
     # https://github.com/Julien-R44/fast-ssh
     # Not avaiable via brew and for darwin arm64
     # cargo install fast-ssh
@@ -86,6 +88,7 @@ locals {
     "raycast",
     "aldente",
     "zed",
+    "font-0xproto-nerd-font", # nerd-fonts
     # vs-code writes launchctl configs, so brew prompts for sudo pass
     # "visual-studio-code"
   ]
