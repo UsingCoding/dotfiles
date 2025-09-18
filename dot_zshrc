@@ -96,6 +96,11 @@ alias cz=chezmoi
 alias l=limactl
 alias tf=tofu
 
+### mise
+alias mr="mise run"
+alias mx="mise exec --"
+###
+
 ### direnv
 eval "$(direnv hook zsh)"
 ###
