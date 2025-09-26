@@ -96,6 +96,9 @@ alias cz=chezmoi
 alias l=limactl
 alias tf=tofu
 
+alias nv="nvim"
+alias nw="nvim ." # stands for nvim workdir
+
 ### mise
 alias mr="mise run"
 alias mx="mise exec --"
