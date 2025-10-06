@@ -102,6 +102,9 @@ alias nw="nvim ." # stands for nvim workdir
 ### mise
 alias mr="mise run"
 alias mx="mise exec --"
+
+# Automatically activate mise
+eval "$(mise activate zsh)"
 ###
 
 ### direnv
