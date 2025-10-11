@@ -71,6 +71,7 @@ locals {
     "gdu",
     "bottom",
     "tree-sitter",
+    "fd",
     "neovim",
     # https://github.com/Julien-R44/fast-ssh
     # Not avaiable via brew and for darwin arm64

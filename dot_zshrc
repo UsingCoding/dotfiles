@@ -72,8 +72,6 @@ export PATH="$PATH:$HOME/.local/bin"
 export PREV_SSH_AUTH_SOCK=$SSH_AUTH_SOCK
 export SSH_AUTH_SOCK="$(brew --prefix)/var/run/gostore-agent.sock"
 
-export EDITOR=nvim
-
 alias cat="bat"
 
 # auto-discovery kubeconfigs
@@ -96,8 +94,12 @@ alias cz=chezmoi
 alias l=limactl
 alias tf=tofu
 
+### EDITOR
+export EDITOR=nvim
+
 alias nv="nvim"
 alias nw="nvim ." # stands for nvim workdir
+###
 
 ### mise
 alias mr="mise run"
