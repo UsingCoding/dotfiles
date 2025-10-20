@@ -15,6 +15,9 @@ locations:
       # Kube
       - ~/.kube/autodiscovery
 
+      - ~/projects/personal
+      - ~/projects/m
+
       # Window manager folder
       - ~/Desktop
       - ~/Documents
