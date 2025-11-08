@@ -101,6 +101,10 @@ alias nv="nvim"
 alias nw="nvim ." # stands for nvim workdir
 ###
 
+### APX
+export PATH="$HOME/scripts/apx:$PATH"
+###
+
 ### mise
 alias mr="mise run"
 alias mx="mise exec --"
