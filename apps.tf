@@ -67,7 +67,6 @@ locals {
     "posting",
     "sshs",
     "autorestic",
-    "direnv",
     "gdu",
     "bottom",
     "tree-sitter",
