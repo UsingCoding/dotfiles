@@ -1,0 +1,8 @@
+# Source an external script to export env vars
+[env._]
+source = "export-pass.sh"
+
+# Tasks
+[tasks.backup-all]
+description = "Run autorestic backup for all"
+run = "autorestic -v backup -a"
