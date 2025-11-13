@@ -77,6 +77,7 @@ locals {
     # Not avaiable via brew and for darwin arm64
     # cargo install fast-ssh
     "opencode",
+    "devcontainer",
   ]
 
   casks = [
