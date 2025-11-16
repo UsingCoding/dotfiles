@@ -105,6 +105,14 @@ alias nw="nvim ." # stands for nvim workdir
 export PATH="$HOME/scripts/apx:$PATH"
 ###
 
+### Shell helpers
+export PATH="$HOME/scripts/shell:$PATH"
+mkcd () {
+  mkdir -p "$1"
+  cd "$1"
+}
+###
+
 ### mise
 alias mr="mise run"
 alias mx="mise exec --"

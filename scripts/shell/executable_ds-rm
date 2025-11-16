@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -e
+set -u
+set -o pipefail
+
+# Usage:
+# Removes .DS_Store recursively in current directory
+
+find . -name .DS_Store -delete
