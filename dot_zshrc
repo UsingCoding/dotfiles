@@ -114,11 +114,13 @@ mkcd () {
 ###
 
 ### mise
+alias m="mise"
 alias mr="mise run"
 alias mx="mise exec --"
 
 # Automatically activate mise
 eval "$(mise activate zsh)"
+
 ###
 
 # Added by LM Studio CLI (lms)
