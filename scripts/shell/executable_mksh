@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
-set -e
-set -u
-set -o pipefail
+set -euo pipefail
 
 # Usage:
 # mksh foo.sh
@@ -16,9 +14,7 @@ elif [ -e "$1" ]; then
 fi
 
 echo '#!/usr/bin/env bash
-set -e
-set -u
-set -o pipefail
+set -euo pipefail
 
 ' >"$1"
 
