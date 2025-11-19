@@ -97,5 +97,6 @@ locals {
     # vs-code writes launchctl configs, so brew prompts for sudo pass
     # "visual-studio-code"
     "codex",
+    "macwhisper",
   ]
 }
