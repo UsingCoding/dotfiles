@@ -111,6 +111,13 @@ mkcd () {
   mkdir -p "$1"
   cd "$1"
 }
+czd () {
+  cd $(cz source-path)
+}
+# cd to chezmoi dir, open neovim, go back
+cznw () {
+  czd && nw && cd -
+}
 ###
 
 ### mise
