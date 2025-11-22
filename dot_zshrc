@@ -102,7 +102,7 @@ alias nw="nvim ." # stands for nvim workdir
 ###
 
 ### APX
-export PATH="$HOME/scripts/apx:$PATH"
+eval "$(apx shellenv zsh)"
 ###
 
 ### Shell helpers
