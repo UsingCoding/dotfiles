@@ -78,6 +78,8 @@ locals {
     # cargo install fast-ssh
     "opencode",
     "xh",
+    "mkcert",
+    "devcockpit",
   ]
 
   casks = [
