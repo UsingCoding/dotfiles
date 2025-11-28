@@ -84,6 +84,8 @@ locals {
     "xh",
     "mkcert",
     "devcockpit",
+    "gitlogue",
+    "xleak",
   ]
 
   casks = [
