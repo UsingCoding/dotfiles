@@ -20,6 +20,10 @@ resource "installer_brew" "cask" {
 
 provider "installer" {}
 
+# Manual installs
+#
+# https://github.com/CodeOne45/vex-tui
+
 locals {
   apps = [
     "age",
