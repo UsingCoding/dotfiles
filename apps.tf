@@ -86,6 +86,7 @@ locals {
     "devcockpit",
     "gitlogue",
     "xleak",
+    "qqqa",
   ]
 
   casks = [
