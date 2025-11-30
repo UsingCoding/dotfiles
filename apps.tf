@@ -26,6 +26,9 @@ provider "installer" {}
 
 locals {
   apps = [
+    "docker",
+    "docker-buildx",
+    "docker-compose",
     "age",
     "chezmoi",
     "htop",
