@@ -90,6 +90,7 @@ locals {
     "gitlogue",
     "xleak",
     "qqqa",
+    "grpcurl",
   ]
 
   casks = [
