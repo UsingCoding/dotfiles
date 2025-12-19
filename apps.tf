@@ -45,7 +45,6 @@ locals {
     "go-task",
     "k3d",
     "mage",
-    "vim",
     "bitwarden-cli",
     "golangci-lint",
     "k9s",
@@ -94,13 +93,9 @@ locals {
   ]
 
   casks = [
-    "bitwarden",
     "gimp",
-    "orbstack",
     "steam",
     "warp",
-    "cursor",
-    "macfuse",
     "raycast",
     "aldente",
     "zed",
@@ -109,7 +104,6 @@ locals {
     # "gog-galaxy",
     # vs-code writes launchctl configs, so brew prompts for sudo pass
     # "visual-studio-code"
-    "codex",
     "macwhisper",
   ]
 }
