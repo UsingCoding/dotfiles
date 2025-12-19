@@ -83,8 +83,6 @@ export PATH="$HOME/scripts:$PATH"
 alias g=gostore
 source <(gostore completion zsh)
 
-source <(brewkit completion zsh)
-
 source <(limactl completion zsh)
 
 alias j=just
