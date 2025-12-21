@@ -90,6 +90,7 @@ locals {
     "xleak",
     "qqqa",
     "grpcurl",
+    "nelm",
   ]
 
   casks = [
