@@ -91,6 +91,7 @@ locals {
     "qqqa",
     "grpcurl",
     "nelm",
+    "gromgit/brewtils/taproom",
   ]
 
   casks = [
@@ -106,5 +107,7 @@ locals {
     # vs-code writes launchctl configs, so brew prompts for sudo pass
     # "visual-studio-code"
     "macwhisper",
+    "obsidian",
+    "google-chrome",
   ]
 }
