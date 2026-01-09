@@ -145,3 +145,8 @@ function y() {
 alias lg="lazygit"
 alias ld="lazydocker"
 ###
+
+### Jetbrains Toolbox
+# Add to PATH scripts to launch ide from terminal
+export PATH="$PATH:$HOME/Library/Application Support/JetBrains/Toolbox/scripts"
+###
