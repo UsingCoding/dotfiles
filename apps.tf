@@ -111,5 +111,6 @@ locals {
     "macwhisper",
     "obsidian",
     "google-chrome",
+    "stats",
   ]
 }
