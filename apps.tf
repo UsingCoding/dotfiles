@@ -93,6 +93,7 @@ locals {
     "nelm",
     "gromgit/brewtils/taproom",
     "superseedr",
+    "mactop",
   ]
 
   casks = [
