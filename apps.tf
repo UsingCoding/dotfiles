@@ -105,9 +105,9 @@ locals {
     "zed",
     "font-0xproto-nerd-font", # nerd-fonts
     # prompts for sudo pass
-    # "gog-galaxy",
     # vs-code writes launchctl configs, so brew prompts for sudo pass
     # "visual-studio-code"
+    "codex",
     "macwhisper",
     "obsidian",
     "google-chrome",
