@@ -150,3 +150,7 @@ alias ld="lazydocker"
 # Add to PATH scripts to launch ide from terminal
 export PATH="$PATH:$HOME/Library/Application Support/JetBrains/Toolbox/scripts"
 ###
+
+### worktrunk
+if command -v wt >/dev/null 2>&1; then eval "$(command wt config shell init zsh)"; fi
+###

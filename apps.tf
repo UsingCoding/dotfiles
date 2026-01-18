@@ -94,6 +94,8 @@ locals {
     "gromgit/brewtils/taproom",
     "superseedr",
     "mactop",
+    "lazyssh",
+    "worktrunk",
   ]
 
   casks = [
