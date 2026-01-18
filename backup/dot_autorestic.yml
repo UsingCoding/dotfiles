@@ -15,9 +15,6 @@ locations:
       # Kube
       - ~/.kube/autodiscovery
 
-      - ~/projects/personal
-      - ~/projects/m
-
       # Window manager folder
       - ~/Desktop
       - ~/Documents
@@ -25,7 +22,6 @@ locations:
 
       # Git
       - ~/.gitconfig
-      - ~/.go-hooks
 
       # gostore
       - ~/.gostore
@@ -42,7 +38,7 @@ locations:
 backends:
   microuser:
     type: rest
-    path: "http://restic.microuser-dark5.local/vadim-mac"
+    path: "http://restic.microuser-dark5.local/vadim-mac-personal"
     # https://autorestic.vercel.app/backend#avoid-generating-keys
     # Avoid accidential key generation
     requireKey: true
