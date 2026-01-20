@@ -96,6 +96,7 @@ locals {
     "mactop",
     "lazyssh",
     "worktrunk",
+    "ekphos",
   ]
 
   casks = [
