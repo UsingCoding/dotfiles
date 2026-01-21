@@ -152,3 +152,6 @@ export PATH="$PATH:$HOME/Library/Application Support/JetBrains/Toolbox/scripts"
 ###
 
 if command -v wt >/dev/null 2>&1; then eval "$(command wt config shell init zsh)"; fi
+
+if command -v apx >/dev/null 2>&1; then eval "$(command apx shellenv zsh)"; fi
+
