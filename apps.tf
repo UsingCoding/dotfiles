@@ -75,7 +75,8 @@ locals {
     "autorestic",
     "gdu",
     "bottom",
-    "tree-sitter",
+    # Required for nvim; commented since checks from terraform fails
+    #"tree-sitter",
     "fd",
     "neovim",
     "sendme",
