@@ -75,14 +75,15 @@ locals {
     "autorestic",
     "gdu",
     "bottom",
-    "tree-sitter",
+    # Commented due to installtion issues
+    #"tree-sitter",
     "fd",
     "neovim",
     "sendme",
     # https://github.com/Julien-R44/fast-ssh
     # Not avaiable via brew and for darwin arm64
     # cargo install fast-ssh
-    "opencode",
+    "anomalyco/tap/opencode",
     "xh",
     "mkcert",
     "devcockpit",
@@ -97,6 +98,7 @@ locals {
     "lazyssh",
     "worktrunk",
     "ekphos",
+    "mole",
   ]
 
   casks = [
@@ -114,5 +116,6 @@ locals {
     "macwhisper",
     "obsidian",
     "google-chrome",
+    "ghostty",
   ]
 }
