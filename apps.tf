@@ -96,6 +96,8 @@ locals {
     "superseedr",
     "mactop",
     "worktrunk",
+    "lazyssh",
+    "try-rs",
   ]
 
   casks = [
