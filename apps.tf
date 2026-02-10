@@ -98,6 +98,7 @@ locals {
     "worktrunk",
     "lazyssh",
     "try-rs",
+    "zellij",
   ]
 
   casks = [
