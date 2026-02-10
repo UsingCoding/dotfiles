@@ -58,6 +58,10 @@ source $ZSH/oh-my-zsh.sh
 # Compilation flags
 # export ARCHFLAGS="-arch $(uname -m)"
 
+### Autosuggestions (managed by .chezmoiexternal.toml)
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+###
+
 # right prompt
 RPS1='$(kubectx_prompt_info)'
 
