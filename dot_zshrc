@@ -165,4 +165,5 @@ if command -v try-rs >/dev/null 2>&1; then eval "$(command try-rs --setup-stdout
 
 ### Zellij
 alias zl=zellij
+alias zlw="zellij -l welcome"
 ###
