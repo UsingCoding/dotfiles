@@ -1,0 +1,11 @@
+#theme = Arcoiris
+theme = Citruszest
+
+# Permanently set term to specific generic value
+# It should solve problem of incorrect recognition
+# if default xterm-ghostty
+term = xterm-256color
+
+# ssh-env potentially should solve it,
+# but for now it not works
+#shell-integration-features = ssh-env
